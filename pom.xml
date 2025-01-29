@@ -1,0 +1,152 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>PetStoreProject</groupId>
+  <artifactId>PetStoreProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+  	<pluginManagement>
+	  <plugins>
+	  		<plugin>
+	          <groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-surefire-plugin</artifactId>
+	          <version>3.5.2</version>
+	         </plugin>
+	        
+		      <plugin>
+		          <groupId>org.apache.maven.plugins</groupId>
+		          <artifactId>maven-compiler-plugin</artifactId>
+		          <version>3.13.0</version>
+		          <configuration>
+		            <suite> testng.xml </suite> <!-- ADD THIS -->
+		          </configuration>
+		        </plugin>
+	  	</plugins>
+	 </pluginManagement>
+	</build>
+  
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi</artifactId>
+		    <version>5.2.5</version>
+		</dependency>
+		
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi-ooxml</artifactId>
+		    <version>5.2.5</version>
+		</dependency>
+		
+<!-- Java library used to generate fake but realistic data such as names, addresses, 
+phone numbers, emails, and other random information for testing purposes.  -->
+		<dependency>
+		    <groupId>com.github.javafaker</groupId>
+		    <artifactId>javafaker</artifactId>
+		    <version>1.0.2</version>
+		</dependency>
+		
+<!-- ScribeJava is a simple and lightweight Java library for handling OAuth1 and OAuth2 authentication in applications, 
+simplifying the process of connecting to APIs that require secure authentication.  -->
+		<dependency>
+			  <groupId>com.github.scribejava</groupId>
+			  <artifactId>scribejava-core</artifactId>
+			  <version>8.3.1</version>
+		</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-core</artifactId>
+		    <version>2.24.2</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-api</artifactId>
+		    <version>2.24.2</version>
+		</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.basc.framework/log4j2 -->
+		<dependency>
+		    <groupId>io.basc.framework</groupId>
+		    <artifactId>log4j2</artifactId>
+		    <version>1.8.3</version>
+		    <scope>test</scope>
+		</dependency>
+
+ <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.10.0</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>5.1.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>io.rest-assured</groupId>
+		<artifactId>json-path</artifactId>
+		<version>5.4.0</version>
+		<scope>test</scope>
+	</dependency>
+		
+		
+	<dependency>
+		<groupId>io.rest-assured</groupId>
+		<artifactId>xml-path</artifactId>
+		<version>5.4.0</version>
+		<scope>test</scope>
+	</dependency>
+		
+		
+	<dependency>
+		<groupId>io.rest-assured</groupId>
+		<artifactId>json-schema-validator</artifactId>
+		<version>5.4.0</version>
+		<scope>test</scope>
+	</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+	<dependency>
+	    <groupId>io.rest-assured</groupId>
+	    <artifactId>rest-assured</artifactId>
+	    <version>5.4.0</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest</artifactId>
+			<version>2.2</version>
+			<scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<!-- to send POST request using org.json -->
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20220320</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <version>2.8.5</version>
+	</dependency>
+
+  
+  </dependencies>
+  
+</project>

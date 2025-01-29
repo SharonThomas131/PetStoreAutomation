@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="4.712" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sharonthomas/eclipse-workspace/PetStoreProject/target/test-classes:/Users/sharonthomas/eclipse-workspace/PetStoreProject/target/classes:/Users/sharonthomas/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/sharonthomas/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/sharonthomas/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/sharonthomas/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/sharonthomas/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/sharonthomas/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/sharonthomas/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/sharonthomas/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/sharonthomas/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/sharonthomas/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/sharonthomas/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/sharonthomas/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/sharonthomas/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/sharonthomas/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/sharonthomas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/sharonthomas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/sharonthomas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/sharonthomas/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.2/log4j-core-2.24.2.jar:/Users/sharonthomas/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.2/log4j-api-2.24.2.jar:/Users/sharonthomas/.m2/repository/io/basc/framework/log4j2/1.8.3/log4j2-1.8.3.jar:/Users/sharonthomas/.m2/repository/io/basc/framework/core/1.8.3/core-1.8.3.jar:/Users/sharonthomas/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar:/Users/sharonthomas/.m2/repository/org/testng/testng/7.10.0/testng-7.10.0.jar:/Users/sharonthomas/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/sharonthomas/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sharonthomas/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/sharonthomas/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/sharonthomas/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/sharonthomas/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/sharonthomas/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/sharonthomas/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/sharonthomas/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/sharonthomas/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/sharonthomas/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/sharonthomas/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/sharonthomas/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/sharonthomas/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/sharonthomas/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/sharonthomas/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/sharonthomas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sharonthomas/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/sharonthomas/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/sharonthomas/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sharonthomas/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sharonthomas/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/sharonthomas/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/sharonthomas/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/sharonthomas/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sharonthomas/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sharonthomas/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sharonthomas/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/sharonthomas/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/sharonthomas/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/sharonthomas/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/sharonthomas/eclipse-workspace/PetStoreProject/target/surefire/surefirebooter-20250128212150920_3.jar /Users/sharonthomas/eclipse-workspace/PetStoreProject/target/surefire 2025-01-28T21-21-50_872-jvmRun1 surefire-20250128212150920_1tmp surefire_0-20250128212150920_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/sharonthomas/eclipse-workspace/PetStoreProject/target/test-classes:/Users/sharonthomas/eclipse-workspace/PetStoreProject/target/classes:/Users/sharonthomas/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/sharonthomas/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/sharonthomas/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/sharonthomas/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/sharonthomas/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/sharonthomas/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/sharonthomas/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/sharonthomas/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/sharonthomas/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/sharonthomas/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/sharonthomas/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/sharonthomas/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/sharonthomas/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/sharonthomas/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/sharonthomas/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/sharonthomas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/sharonthomas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/sharonthomas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/sharonthomas/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.2/log4j-core-2.24.2.jar:/Users/sharonthomas/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.2/log4j-api-2.24.2.jar:/Users/sharonthomas/.m2/repository/io/basc/framework/log4j2/1.8.3/log4j2-1.8.3.jar:/Users/sharonthomas/.m2/repository/io/basc/framework/core/1.8.3/core-1.8.3.jar:/Users/sharonthomas/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar:/Users/sharonthomas/.m2/repository/org/testng/testng/7.10.0/testng-7.10.0.jar:/Users/sharonthomas/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/sharonthomas/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sharonthomas/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/sharonthomas/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/sharonthomas/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/sharonthomas/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/sharonthomas/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/sharonthomas/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/sharonthomas/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/sharonthomas/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/sharonthomas/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/sharonthomas/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/sharonthomas/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/sharonthomas/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/sharonthomas/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/sharonthomas/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/sharonthomas/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/sharonthomas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sharonthomas/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/sharonthomas/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/sharonthomas/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sharonthomas/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sharonthomas/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/sharonthomas/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/sharonthomas/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/sharonthomas/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/sharonthomas/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sharonthomas/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sharonthomas/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sharonthomas/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/sharonthomas/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/sharonthomas/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/sharonthomas/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sharonthomas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/sharonthomas/eclipse-workspace/PetStoreProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/sharonthomas/eclipse-workspace/PetStoreProject/target/surefire/surefirebooter-20250128212150920_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="sharonthomas"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.1.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/sharonthomas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/5q/2s_yz_k11m90hcr6tmrwh9y00000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/sharonthomas/eclipse-workspace/PetStoreProject"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sharonthomas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testPostUser[1010, testUser1, John, Canedy, a12@gmail.com, test@123, 123456789](1)" classname="api.tests.UserDataDrivenTest" time="1.172"/>
+  <testcase name="testPostUser[1020, testUser2, Kim, Collins, sd23@gmail.com, test@355, 987654322](2)" classname="api.tests.UserDataDrivenTest" time="0.272"/>
+  <testcase name="testPostUser[1030, testUser3, Smith, Steve, ef33@gmail.com, test@98h, 678954328](3)" classname="api.tests.UserDataDrivenTest" time="0.208"/>
+  <testcase name="testDeleteUserByName[testUser1](1)" classname="api.tests.UserDataDrivenTest" time="0.275"/>
+  <testcase name="testDeleteUserByName[testUser2](2)" classname="api.tests.UserDataDrivenTest" time="0.212"/>
+  <testcase name="testDeleteUserByName[testUser3](3)" classname="api.tests.UserDataDrivenTest" time="0.332"/>
+  <testcase name="testPostUser" classname="api.tests.UserTests" time="0.325">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 02:21:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "460741164"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName" classname="api.tests.UserTests" time="0.251">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 02:21:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 460741164,
+    "username": "kelsey.davis",
+    "firstName": "Andy",
+    "lastName": "Nitzsche",
+    "email": "devin.hansen@example.com",
+    "password": "n8f798pa",
+    "phone": "586.272.1986",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName" classname="api.tests.UserTests" time="0.259">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "kelsey.davis"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName" classname="api.tests.UserTests" time="0.44">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 02:21:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "460741164"
+}
+HTTP/1.1 200 OK
+Date: Wed, 29 Jan 2025 02:21:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 460741164,
+    "username": "kelsey.davis",
+    "firstName": "Mac",
+    "lastName": "Nitzsche",
+    "email": "hobert.welch@hotmail.com",
+    "password": "n8f798pa",
+    "phone": "962-500-0522",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+</testsuite>
